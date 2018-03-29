@@ -32,5 +32,6 @@ if cvv_len == 3: # Проверка- код 3-х значный
 else:
     print('Eror! Must be 3 digits!')
     exit()
+    pass
 
 print('HA-ha-ha. Now I will use your credit card!\nCredit number: {}\nMM/YY: {}/{}\nCVV: {}'.format (credit_numb, mm, yy, cvv ))
